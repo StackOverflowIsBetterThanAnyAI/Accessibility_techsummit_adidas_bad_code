@@ -2,7 +2,7 @@ import styles from './logo.module.css'
 
 export const Logo = () => (
     <div className={styles.container}>
-        <a href="/">
+        <a href="/Home">
             <img
                 className={styles.image}
                 src={`/static/images/logo.png`}

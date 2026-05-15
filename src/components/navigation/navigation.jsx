@@ -16,9 +16,9 @@ export const Navigation = ({ links }) => {
             <div className={styles.dropdown}>
                 <button className={styles.dropbtn}>Dropdown</button>
                 <div className={styles.dropdownContent}>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#1">Link 1</a>
+                    <a href="#2">Link 2</a>
+                    <a href="#3">Link 3</a>
                 </div>
             </div>
         </div>

@@ -6,10 +6,14 @@ export const Product = ({ product }) => {
         <div className={styles.container}>
             <div className={styles.heading}>{product.name}</div>
             <img className={styles.image} src={product.imageURL} />
-            <p className={styles.description}>{product.description}</p>
+            <p lang="es" className={styles.description}>
+                {product.description}
+            </p>
             <div className={styles.moreinfo}>
-                <p className={styles.price}>MRP Rs.{product.price}</p>
-                <div tabIndex="0" className={styles.buynow}>
+                <p className={styles.price} aria-labelledby="id">
+                    MRP Rs.{product.price}
+                </p>
+                <div tabIndex="-1" className={styles.buynow} aria-valid>
                     <CartIcon className={styles.icon} />
                 </div>
             </div>
