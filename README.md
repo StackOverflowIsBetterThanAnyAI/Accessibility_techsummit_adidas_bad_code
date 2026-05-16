@@ -25,6 +25,7 @@
 - 7x contrast is not high enough
 - 1x basket is not read aloud as a basket
 - 1x aria-live="assertive" has no aria-atomic="true"
+- 1x image has no alt attribute
 
 ## Product
 
@@ -33,4 +34,4 @@
 - 24x bad aria-attribute
 - 24x paragraph does not allow an aria-labelledby
 - 24x button cannot be focussed by keyboard
-- 24x image has no describing alt attribute
+- 24x image has no alt attribute
