@@ -6,6 +6,7 @@
 - 1x meta refresh is used to refresh the page
 - 1x page has no title attribute
 - 1x page content jumps on refresh
+- 1x document has no heading
 
 ## Categories
 
@@ -20,6 +21,7 @@
 ## Navigation
 
 - 1x image and text should be combined to one single link
+- 1x link has no accessible name
 - 1x dropdown button has no visible focus indicator
 - 1x dropdown button cannot be activated by keyboard
 - 7x contrast is not high enough
