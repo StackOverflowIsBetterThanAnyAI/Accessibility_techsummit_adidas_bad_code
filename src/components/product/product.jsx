@@ -6,9 +6,7 @@ export const Product = ({ product }) => {
         <div className={styles.container}>
             <div className={styles.heading}>{product.name}</div>
             <img className={styles.image} src={product.imageURL} />
-            <p lang="es" className={styles.description}>
-                {product.description}
-            </p>
+            <p className={styles.description}>{product.description}</p>
             <div className={styles.moreinfo}>
                 <p className={styles.price} aria-labelledby="id">
                     MRP Rs.{product.price}

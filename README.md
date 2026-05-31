@@ -31,7 +31,6 @@
 
 ## Product
 
-- 24x wrong language subtag
 - 24x contrast is not high enough
 - 17x contrast is not high enough in hover state
 - 17x contrast is not high enough in focus state
