@@ -33,6 +33,8 @@
 
 - 24x wrong language subtag
 - 24x contrast is not high enough
+- 17x contrast is not high enough in hover state
+- 17x contrast is not high enough in focus state
 - 24x bad aria-attribute
 - 24x paragraph does not allow an aria-labelledby
 - 24x button cannot be focussed by keyboard
