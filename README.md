@@ -38,3 +38,4 @@
 - 24x paragraph does not allow an aria-labelledby
 - 24x button cannot be focussed by keyboard
 - 24x image has no alt attribute
+- 48x insufficient line height
